@@ -3,7 +3,7 @@
 ## Architecture Overview
 
  Service          |  Port | Description                                  |
-
+**************************************************************************
 | User Service     |  3000 | Manages user data                            |
 | Product Service  | 3001 | Handles product catalog                      |
 | Order Service    |  3002 | Processes and tracks orders                  |
