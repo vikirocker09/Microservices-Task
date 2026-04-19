@@ -4,10 +4,10 @@
 
  Service          |  Port | Description                                  |
 **************************************************************************
-| User Service     |  3000 | Manages user data                            |
-| Product Service  | 3001 | Handles product catalog                      |
-| Order Service    |  3002 | Processes and tracks orders                  |
-| Gateway Service  | 3003 | API gateway routing requests to all services |
+ User Service     --->  3000 ----> Manages user data                            
+ Product Service  ---> 3001 ---> Handles product catalog                      
+ Order Service    --->  3002 ---> Processes and tracks orders                  
+ Gateway Service  ---> 3003 ---> API gateway routing requests to all services 
 
 ---
 
